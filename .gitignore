@@ -1,0 +1,17 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore pycache
+__pycache__/
+
+# Ignore environment variables
+.env
+
+# Ignore mypy cache
+.mypy_cache
+
+# Ignore venv
+venv/
+
+#Ignore vscode stuff
+.vscode/*
