@@ -42,6 +42,6 @@ jobs:
 
       - name: Build using AppService-Build
         if: startsWith(runner.os, 'Linux')
-        uses: azure/appservice-build@v2
+        uses: azure/appservice-build@v3
         with:
           platform: python
